@@ -5,102 +5,102 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="DataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="Table_News">
+        <EntityType Name="Table_1">
           <Key>
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="author" Type="varbinary" MaxLength="50" />
-          <Property Name="title" Type="varchar" MaxLength="200" />
-          <Property Name="description" Type="varbinary" MaxLength="200" />
-          <Property Name="url" Type="varbinary" MaxLength="200" />
-          <Property Name="urlToImage" Type="varchar" MaxLength="200" />
-          <Property Name="publishedAt" Type="varbinary" MaxLength="50" />
-          <Property Name="content" Type="varbinary" MaxLength="500" />
-        </EntityType>
-        <EntityType Name="Table_Weather">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="temp" Type="varchar" MaxLength="50" />
           <Property Name="description" Type="varchar" MaxLength="50" />
+          <Property Name="temp" Type="varchar" MaxLength="50" />
           <Property Name="pressure" Type="varchar" MaxLength="50" />
           <Property Name="humidity" Type="varchar" MaxLength="50" />
+          <Property Name="visibility" Type="varchar" MaxLength="50" />
           <Property Name="speed" Type="varchar" MaxLength="50" />
           <Property Name="deg" Type="varchar" MaxLength="50" />
-          <Property Name="visibility" Type="varbinary" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Table_2">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="author" Type="varchar" MaxLength="100" />
+          <Property Name="title" Type="varchar" MaxLength="200" />
+          <Property Name="description" Type="varchar" MaxLength="300" />
+          <Property Name="url" Type="varchar" MaxLength="200" />
+          <Property Name="utlToImage" Type="varchar" MaxLength="200" />
+          <Property Name="publishedAt" Type="varchar" MaxLength="200" />
+          <Property Name="content_desc" Type="varchar" MaxLength="500" />
         </EntityType>
         <EntityContainer Name="DataBaseModelStoreContainer">
-          <EntitySet Name="Table_News" EntityType="Self.Table_News" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Table_Weather" EntityType="Self.Table_Weather" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Table_1" EntityType="Self.Table_1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Table_2" EntityType="Self.Table_2" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="DataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="Table_News">
+        <EntityType Name="Table_1">
           <Key>
             <PropertyRef Name="id" />
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="author" Type="Binary" MaxLength="50" FixedLength="false" />
-          <Property Name="title" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Name="description" Type="Binary" MaxLength="200" FixedLength="false" />
-          <Property Name="url" Type="Binary" MaxLength="200" FixedLength="false" />
-          <Property Name="urlToImage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
-          <Property Name="publishedAt" Type="Binary" MaxLength="50" FixedLength="false" />
-          <Property Name="content" Type="Binary" MaxLength="500" FixedLength="false" />
-        </EntityType>
-        <EntityType Name="Table_Weather">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="temp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="temp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="pressure" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="humidity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="visibility" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="speed" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="deg" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="visibility" Type="Binary" MaxLength="50" FixedLength="false" />
         </EntityType>
-        <EntityContainer Name="DataBaseEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Table_News" EntityType="Self.Table_News" />
-          <EntitySet Name="Table_Weather" EntityType="Self.Table_Weather" />
+        <EntityType Name="Table_2">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="author" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="title" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="description" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="url" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="utlToImage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="publishedAt" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="content_desc" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="DataBaseEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Table_1" EntityType="Self.Table_1" />
+          <EntitySet Name="Table_2" EntityType="Self.Table_2" />
         </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseEntities">
-          <EntitySetMapping Name="Table_News">
-            <EntityTypeMapping TypeName="DataBaseModel.Table_News">
-              <MappingFragment StoreEntitySet="Table_News">
+        <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseEntities2">
+          <EntitySetMapping Name="Table_1">
+            <EntityTypeMapping TypeName="DataBaseModel.Table_1">
+              <MappingFragment StoreEntitySet="Table_1">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="temp" ColumnName="temp" />
+                <ScalarProperty Name="pressure" ColumnName="pressure" />
+                <ScalarProperty Name="humidity" ColumnName="humidity" />
+                <ScalarProperty Name="visibility" ColumnName="visibility" />
+                <ScalarProperty Name="speed" ColumnName="speed" />
+                <ScalarProperty Name="deg" ColumnName="deg" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table_2">
+            <EntityTypeMapping TypeName="DataBaseModel.Table_2">
+              <MappingFragment StoreEntitySet="Table_2">
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="author" ColumnName="author" />
                 <ScalarProperty Name="title" ColumnName="title" />
                 <ScalarProperty Name="description" ColumnName="description" />
                 <ScalarProperty Name="url" ColumnName="url" />
-                <ScalarProperty Name="urlToImage" ColumnName="urlToImage" />
+                <ScalarProperty Name="utlToImage" ColumnName="utlToImage" />
                 <ScalarProperty Name="publishedAt" ColumnName="publishedAt" />
-                <ScalarProperty Name="content" ColumnName="content" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Table_Weather">
-            <EntityTypeMapping TypeName="DataBaseModel.Table_Weather">
-              <MappingFragment StoreEntitySet="Table_Weather">
-                <ScalarProperty Name="id" ColumnName="id" />
-                <ScalarProperty Name="temp" ColumnName="temp" />
-                <ScalarProperty Name="description" ColumnName="description" />
-                <ScalarProperty Name="pressure" ColumnName="pressure" />
-                <ScalarProperty Name="humidity" ColumnName="humidity" />
-                <ScalarProperty Name="speed" ColumnName="speed" />
-                <ScalarProperty Name="deg" ColumnName="deg" />
-                <ScalarProperty Name="visibility" ColumnName="visibility" />
+                <ScalarProperty Name="content_desc" ColumnName="content_desc" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

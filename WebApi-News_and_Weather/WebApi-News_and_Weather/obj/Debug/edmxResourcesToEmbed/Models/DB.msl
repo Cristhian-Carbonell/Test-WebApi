@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseEntities2">
+    <EntitySetMapping Name="Table_1">
+      <EntityTypeMapping TypeName="DataBaseModel.Table_1">
+        <MappingFragment StoreEntitySet="Table_1">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="temp" ColumnName="temp" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="humidity" ColumnName="humidity" />
+          <ScalarProperty Name="visibility" ColumnName="visibility" />
+          <ScalarProperty Name="speed" ColumnName="speed" />
+          <ScalarProperty Name="deg" ColumnName="deg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table_2">
+      <EntityTypeMapping TypeName="DataBaseModel.Table_2">
+        <MappingFragment StoreEntitySet="Table_2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="utlToImage" ColumnName="utlToImage" />
+          <ScalarProperty Name="publishedAt" ColumnName="publishedAt" />
+          <ScalarProperty Name="content_desc" ColumnName="content_desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

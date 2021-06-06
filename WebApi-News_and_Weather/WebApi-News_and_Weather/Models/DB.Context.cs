@@ -13,10 +13,10 @@ namespace WebApi_News_and_Weather.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DataBaseEntities : DbContext
+    public partial class DataBaseEntities2 : DbContext
     {
-        public DataBaseEntities()
-            : base("name=DataBaseEntities")
+        public DataBaseEntities2()
+            : base("name=DataBaseEntities2")
         {
         }
     
@@ -25,7 +25,7 @@ namespace WebApi_News_and_Weather.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Table_News> Table_News { get; set; }
-        public virtual DbSet<Table_Weather> Table_Weather { get; set; }
+        public virtual DbSet<Table_1> Table_1 { get; set; }
+        public virtual DbSet<Table_2> Table_2 { get; set; }
     }
 }

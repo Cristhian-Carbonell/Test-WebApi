@@ -35,5 +35,8 @@ namespace WebApi_News_and_Weather.Controllers
         public void Delete(int id)
         {
         }
+
+        
     }
+   
 }
