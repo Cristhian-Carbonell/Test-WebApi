@@ -1,0 +1,9 @@
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\obj\Debug\netstandard2.0\ViewModelWeather.csprojAssemblyReference.cache
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\obj\Debug\netstandard2.0\ViewModelWeather.csproj.CoreCompileInputs.cache
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\obj\Debug\netstandard2.0\ViewModelWeather.AssemblyInfoInputs.cache
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\obj\Debug\netstandard2.0\ViewModelWeather.AssemblyInfo.cs
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\bin\Debug\netstandard2.0\ViewModelWeather.deps.json
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\bin\Debug\netstandard2.0\ViewModelWeather.dll
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\bin\Debug\netstandard2.0\ViewModelWeather.pdb
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\obj\Debug\netstandard2.0\ViewModelWeather.dll
+E:\Test-WebAPi\WebApiCity\ViewModelWeather\obj\Debug\netstandard2.0\ViewModelWeather.pdb

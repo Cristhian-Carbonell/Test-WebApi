@@ -1,0 +1,9 @@
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\bin\Debug\netstandard2.0\ViewsModel.deps.json
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\bin\Debug\netstandard2.0\ViewsModel.dll
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\bin\Debug\netstandard2.0\ViewsModel.pdb
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\obj\Debug\netstandard2.0\ViewsModel.csprojAssemblyReference.cache
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\obj\Debug\netstandard2.0\ViewsModel.csproj.CoreCompileInputs.cache
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\obj\Debug\netstandard2.0\ViewsModel.AssemblyInfoInputs.cache
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\obj\Debug\netstandard2.0\ViewsModel.AssemblyInfo.cs
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\obj\Debug\netstandard2.0\ViewsModel.dll
+E:\Test-WebAPi\WebApi-News_and_Weather\ViewsModel\obj\Debug\netstandard2.0\ViewsModel.pdb

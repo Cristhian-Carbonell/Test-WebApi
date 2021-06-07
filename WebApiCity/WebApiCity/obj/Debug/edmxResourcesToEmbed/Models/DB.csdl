@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TableWebAPI">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="author" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="title" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="url" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="utlToImage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="publishedAt" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="content_desc" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="description_weather" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="temp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="pressure" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="humidity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="visibility" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="speed" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="deg" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DataBaseEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TableWebAPI" EntityType="Self.TableWebAPI" />
+  </EntityContainer>
+</Schema>

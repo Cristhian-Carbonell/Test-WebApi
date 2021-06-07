@@ -1,0 +1,9 @@
+E:\Test-WebAPi\WebApiCity\ViewModel\bin\Debug\netstandard2.0\ViewModel.deps.json
+E:\Test-WebAPi\WebApiCity\ViewModel\bin\Debug\netstandard2.0\ViewModel.dll
+E:\Test-WebAPi\WebApiCity\ViewModel\bin\Debug\netstandard2.0\ViewModel.pdb
+E:\Test-WebAPi\WebApiCity\ViewModel\obj\Debug\netstandard2.0\ViewModel.csprojAssemblyReference.cache
+E:\Test-WebAPi\WebApiCity\ViewModel\obj\Debug\netstandard2.0\ViewModel.csproj.CoreCompileInputs.cache
+E:\Test-WebAPi\WebApiCity\ViewModel\obj\Debug\netstandard2.0\ViewModel.AssemblyInfoInputs.cache
+E:\Test-WebAPi\WebApiCity\ViewModel\obj\Debug\netstandard2.0\ViewModel.AssemblyInfo.cs
+E:\Test-WebAPi\WebApiCity\ViewModel\obj\Debug\netstandard2.0\ViewModel.dll
+E:\Test-WebAPi\WebApiCity\ViewModel\obj\Debug\netstandard2.0\ViewModel.pdb

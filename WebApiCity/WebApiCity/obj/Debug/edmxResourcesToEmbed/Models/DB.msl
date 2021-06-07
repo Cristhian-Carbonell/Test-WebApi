@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataBaseModelStoreContainer" CdmEntityContainer="DataBaseEntities1">
+    <EntitySetMapping Name="TableWebAPI">
+      <EntityTypeMapping TypeName="DataBaseModel.TableWebAPI">
+        <MappingFragment StoreEntitySet="TableWebAPI">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="author" ColumnName="author" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="utlToImage" ColumnName="utlToImage" />
+          <ScalarProperty Name="publishedAt" ColumnName="publishedAt" />
+          <ScalarProperty Name="content_desc" ColumnName="content_desc" />
+          <ScalarProperty Name="description_weather" ColumnName="description_weather" />
+          <ScalarProperty Name="temp" ColumnName="temp" />
+          <ScalarProperty Name="pressure" ColumnName="pressure" />
+          <ScalarProperty Name="humidity" ColumnName="humidity" />
+          <ScalarProperty Name="visibility" ColumnName="visibility" />
+          <ScalarProperty Name="speed" ColumnName="speed" />
+          <ScalarProperty Name="deg" ColumnName="deg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
