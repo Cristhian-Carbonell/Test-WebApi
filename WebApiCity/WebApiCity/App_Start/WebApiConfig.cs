@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using WebApiCity.App_Start;
 
 namespace WebApiCity
 {
@@ -10,7 +11,7 @@ namespace WebApiCity
         public static void Register(HttpConfiguration config)
         {
             // Configuración y servicios de API web
-
+            config.EnableCors(new AccessPolicyCors());
             // Rutas de API web
             config.MapHttpAttributeRoutes();
 

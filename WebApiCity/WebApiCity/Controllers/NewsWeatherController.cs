@@ -30,6 +30,7 @@ namespace WebApiCity.Controllers
                 lts = (from d in db.TableWebAPI
                        select new ViewModel.NewsViewModel
                        {
+                           id = d.id,
                            author = d.author,
                            title = d.title,
                            description = d.description,
@@ -50,9 +51,9 @@ namespace WebApiCity.Controllers
                        }).ToList();
                 dict["news"] = lts;
             }
-            string json = JsonConvert.SerializeObject(dict, Formatting.Indented);
+            //string json = JsonConvert.SerializeObject(lts, Formatting.Indented);
             
-            return Ok(json);
+            return Ok(lts);
         }
 
         private void PostNewsWeathe(string city)

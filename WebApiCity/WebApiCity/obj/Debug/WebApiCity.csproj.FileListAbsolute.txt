@@ -192,3 +192,6 @@ E:\Test-WebAPi\WebApiCity\WebApiCity\bin\System.Xml.XPath.dll
 E:\Test-WebAPi\WebApiCity\WebApiCity\bin\System.Xml.XPath.XDocument.dll
 E:\Test-WebAPi\WebApiCity\WebApiCity\bin\ViewModel.dll
 E:\Test-WebAPi\WebApiCity\WebApiCity\bin\ViewModel.pdb
+E:\Test-WebAPi\WebApiCity\WebApiCity\bin\System.Web.Cors.dll
+E:\Test-WebAPi\WebApiCity\WebApiCity\bin\System.Web.Http.Cors.dll
+E:\Test-WebAPi\WebApiCity\WebApiCity\bin\System.Web.Http.Cors.xml
